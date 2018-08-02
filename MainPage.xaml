@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ProyectoXam"
+             x:Class="ProyectoXam.MainPage">
+    <ScrolView>
+
+        <image Source="customer.png"
+                   Aspect="Fill" />
+
+        <label
+                HorizontalOptions="Center"
+                Text="Xamarin Forms"
+                TextColor="Blue"
+                VerticalTextAlignment="Center"
+                HorizontalTextAligment="End"
+                BackgroudColor="Blue"
+                WidthRequest="200" 
+            />
+        <label     VerticalOptions="Center"
+                   HorizonalOptions="Center"
+                   Text="Xamarin Desarrollo aplicaciones moviles multi plataforma"
+                   TextColor="Aqua"
+                   VerticalTextAligment="End"
+                   BackgroundColor="Blue"
+                   WidthRequest="200"
+                   HeightRequest="300"
+                   LineBreadMode="Head Truncation" />
+    </ScrolView>
+</ContentPage>
